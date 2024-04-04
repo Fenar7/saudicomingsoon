@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPRO';
+    src: url('/fonts/SF-Pro-Display-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.disp-none-desktop{
+    @media(min-width: 576px){
+        display: none!important;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: SFPRO;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px!important;
+    padding: 0px!important;
+}
+
+.col-6{
+    padding: 0px!important;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.container-large{
+    margin: 0em 0.75em;
+}
+
+[class^="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container{
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.container-small{
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1166px;
+    box-sizing: border-box!important;
+
+    @media(max-width: 776px){
+        max-width: calc(100% - 1em);
+    }
+}
+
+.margin-top{
+    margin-top: 3.125em;
+
+    @media(max-width:576px){
+        margin-top: 1.5625em;
+    }
+}
+
+.margin-top-small{
+    margin-top: 1.5em;
+
+    @media(max-width:576px){
+        margin-top: 1em;
+    }
+}
+
+.margin-bottom{
+    margin-bottom: 3.125em;
+
+    @media(max-width:576px){
+        margin-bottom: 1.5625em;
+    }
+}
